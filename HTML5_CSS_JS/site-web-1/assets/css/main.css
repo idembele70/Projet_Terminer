@@ -1,0 +1,150 @@
+body {
+    background-color:black;
+    color: white;
+    padding: 10px;
+width: 920px;
+margin: auto;
+text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+nav > ul a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blue;
+    margin: 15px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: red;
+    padding: 0%;
+    border-bottom: 5px solid;
+    background-color: grey;
+}
+
+/* SECTION */
+section{
+    align-items: baseline;
+}
+
+/* Section Hero */
+#heroSlide img {
+width: 80%;
+}
+
+/* Slider */
+#btnGauche, #btnDroit {
+    position: absolute;
+    font-size: 100px;
+    top: 250px;
+    cursor: pointer;
+    opacity: 0;
+    padding: 20px;
+}
+
+#btnGauche {
+    left: 0%;
+}
+
+#btnDroit {
+    right: 0;
+}
+
+#heroSlide:hover #btnGauche, #heroSlide:hover #btnDroit {    
+    opacity: 1;
+    background-color: rgba(25,188, 188, 1);
+}
+/* Section Services */
+.services {
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: blue;
+}
+
+.riyadShoes {
+    width: 32%;
+}
+
+.kevinShoes{
+    width: 32%;
+}
+
+.neymarShoes {
+    width: 32%;
+}
+
+/* Section ourTeam */
+.ourTeam {
+    display: flex;
+}
+
+.riyad {
+    width: 32%;
+}
+
+.riyad img {
+    width: 90%;
+}
+
+.kevin {
+    width: 32%;
+}
+
+.kevin img {
+ width: 90%;
+}
+
+.neymar {
+    width: 32%;
+}
+
+.neymar img {
+    width: 90%;
+}
+
+/* portfolio*/
+.portfolio {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.messagePortfolio {
+flex: 2;
+margin-right: 15px;
+}
+
+
+.portfolio > img {
+flex: 1;
+}
+
+/* contact us */
+.contactUs {
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    text-align: center;
+}
